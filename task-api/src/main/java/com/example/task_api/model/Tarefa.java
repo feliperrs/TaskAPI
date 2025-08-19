@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Tarefa {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)	// Gera um ID automaticamente com auto incremento
 	private Long id;
 	private String nome;
 	private LocalDate dataEntrega;
